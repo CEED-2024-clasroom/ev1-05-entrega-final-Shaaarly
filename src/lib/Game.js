@@ -36,9 +36,9 @@ class Game {
   }
 
   // DEBUG, so you can see the board
-  get board() {
-    return this.#board
-  }
+  // get board() {
+  //   return this.#board
+  // }
 
   static randomGameId() {
     return Math.floor(Math.random() * GAMES.length)
